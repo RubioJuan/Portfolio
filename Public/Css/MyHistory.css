@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para títulos */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Estilo para párrafos */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Galería de imágenes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Marco de las imágenes */
+.image-frame {
+    background: #a1a0a056;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor */
+.image-frame:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Ajuste de imágenes */
+.image-frame img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quick-facts {
+    max-width: 880px;
+    margin: 40px auto;
+    padding: 35px;
+    background: linear-gradient(145deg, #ffffff, #f1f1f1);
+    border-radius: 18px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.quick-facts h1 {
+    font-size: 2.6rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.fact {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #fef9ff;
+    border-left: 6px solid #6aa9e9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.fact h3 {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.fact p {
+    font-size: 1.05rem;
+    color: #333;
+}
+
+.fact a:hover {
+    text-decoration: underline;
+}
+
+.book-covers {
+    max-width: 880px;
+    margin: 35px auto;
+    padding: 30px;
+    background: #faf5ff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.book-covers h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 18px;
+}
+
+.book-cover img {
+    width: 130px;
+    height: 190px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 6px 12px rgba(124, 58, 237, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.book-cover img:hover {
+    transform: scale(1.07);
+}
